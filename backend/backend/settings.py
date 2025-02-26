@@ -153,3 +153,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWS_CREDENTIALS = True
+
+# Stripe API Keys
+STRIPE_SECRET_KEY = "sk_test_xxx"  # Replace with your test secret key from Stripe
+STRIPE_PUBLIC_KEY = "pk_test_xxx"  # Replace with your test public key from Stripe
